@@ -1,4 +1,5 @@
 # AdBlock Detect <small>(adBDetect)</small>
+It is used mainly by [pearOS](https://pearos.xyz)
 
 ## Calling Javascript file
 ```html
@@ -11,6 +12,7 @@ Normal <i>(default option)</i>
 ```javascript
 adBDetect().start();
 ```
+or
 With options
 ```javascript
 var adBD = adBDetect().setup({

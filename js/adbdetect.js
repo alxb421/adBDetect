@@ -1,5 +1,5 @@
 /*!
- * adBDetect v0.0.1
+ * adBDetect v1.0
  * Author Alexandru Balan
  * Licensed under GPL v3 License
  * Based on Javascript

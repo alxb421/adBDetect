@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 </head>
+
 <body>
 <div class="container" style="margin-top: 40px;">
     <div class="jumbotron">
@@ -20,12 +21,9 @@
 var adBD = adBDetect().setup({
     debug:true,
     setPage:'ad-detect.html',
-    wait:2000,
+    wait:0,
 });
 adBD.start();
-if(adBD.isDetected()) {
-    alert('AdBlock is Enabled!');
-}
 </script>
 </body>
 </html>

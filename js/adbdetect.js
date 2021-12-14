@@ -1,9 +1,9 @@
 /*!
  * adBDetect v0.0.1
- * Author MuhBayu <bnugraha00@gmail.com>
- * Licensed under MIT license
+ * Author Alexandru Balan
+ * Licensed under GPL v3 License
  * Based on Javascript
- * https://github.com/MuhBayu/adBDetect
+ * Original project: https://github.com/MuhBayu/adBDetect
 */
 (function(window) {
 	var adBDetect = function() {
